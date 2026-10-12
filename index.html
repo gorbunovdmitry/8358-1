@@ -271,7 +271,7 @@
   'use strict';
   // ====== КОНФИГ ВАРИАНТА — подставляет build.py ======
   var CONFIG = {"exp": "8358", "num": 1, "offer": "A", "hero": {"title": "Поручите покупки ИИ-помощнику", "sub": "Он сам продлит подписки, закажет продукты и бытовые мелочи — в рамках правил, которые задаете вы", "chips": ["Регулярные заказы без вашего участия", "Бюджет и магазины под вашим контролем", "Уведомление о каждой покупке"], "visual": "feed"}, "example": {"rule": "Каждые 2 недели · до 4 000 ₽ за заказ · 1 магазин", "items": [{"t": "user", "text": "Закажи корм для собаки, воду и бытовую химию, как в прошлый раз. Не дороже 4 000 ₽"}, {"t": "bot", "text": "Собрал корзину на 3 760 ₽ и оплатил Агентской картой. Доставка завтра с 10 до 12"}, {"t": "notif", "text": "Агентская карта · Покупка 3 760 ₽ · Лимит на месяц: осталось 4 240 ₽"}], "caption": "Вы не тратите время на рутину, а бюджет остается в рамках"}, "footerExtra": "", "cashbackX": "X%", "cashbackY": "Y%", "bonus": ""}; // BUILD:CONFIG
-  var WEBHOOK_URL = "PASTE_APPS_SCRIPT_URL"; // BUILD:WEBHOOK
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycby_igofnjSMwIj4le0MnCB_M5uSqy_eWEtIAxTyY-a6vi_nHVbyDsvsjwTKTTFvTTW7/exec"; // BUILD:WEBHOOK
 
   var EXP = CONFIG.exp, VAR = CONFIG.num, OFFER = CONFIG.offer;
   var X = CONFIG.cashbackX, Y = CONFIG.cashbackY;
